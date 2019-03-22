@@ -1,0 +1,27 @@
+TODO:
+- Sign up and log in
+  - Sign up VC
+  - Sign up Database logic
+  - Log in VC
+  - Log in Database logic
+  - Log in authentication
+  - User Defaults for log in??
+- Menubar to switch between modes:
+ -- Sample mode from Apple Music
+ -- Local files from Apple Music
+ -- What's hot near me
+Modes:
+- Sample Music
+  -- Add a queue playlist for continuous playback
+  -- Add gestures?
+- Local files
+  -- Add VC for local files browsing
+  -- Setup MusicKit and do integration
+- Near me
+  -- Setup MapKit and ULLocation
+  -- Do coordinate tracking with Database
+  -- Track last listened / most heard in Database
+  -- Server side logic / logic for what's nearby
+  -- Allow direct searching of song samples
+  
+Milestones:

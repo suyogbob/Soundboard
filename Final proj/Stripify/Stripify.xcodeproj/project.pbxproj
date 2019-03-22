@@ -1,0 +1,845 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CEE7FA6D1E6336E8256F6E1 /* Pods_Stripify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8CD7987A90F09CF290DEFB /* Pods_Stripify.framework */; };
+		73EEB7EC208C6BFC00309E76 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73EEB7EB208C6BFC00309E76 /* GoogleService-Info.plist */; };
+		975A723C207B1B9500713D6E /* MenuLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975A723B207B1B9500713D6E /* MenuLauncher.swift */; };
+		975A723E207B25E900713D6E /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975A723D207B25E900713D6E /* MenuCell.swift */; };
+		975A7240207B3AB400713D6E /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975A723F207B3AB400713D6E /* LibraryViewController.swift */; };
+		975A72422082BBD800713D6E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 975A72412082BBD800713D6E /* CoreLocation.framework */; };
+		975A72442082BC6200713D6E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975A72432082BC6200713D6E /* MapViewController.swift */; };
+		975A72462082C1F800713D6E /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975A72452082C1F800713D6E /* CustomAnnotation.swift */; };
+		9786A9792077BE6C0008F0CE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9786A9782077BE6C0008F0CE /* Podfile */; };
+		9786A97B2077BF560008F0CE /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9786A97A2077BF560008F0CE /* FirebaseManager.swift */; };
+		97B078D3205F8A4D00EE4F06 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B078D2205F8A4D00EE4F06 /* SongTableViewCell.swift */; };
+		B6AFC8C91D9A1F1E00DC5676 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AFC8C81D9A1F1E00DC5676 /* AppDelegate.swift */; };
+		B6AFC8CE1D9A1F1E00DC5676 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AFC8CC1D9A1F1E00DC5676 /* Main.storyboard */; };
+		B6AFC8D11D9A1F1E00DC5676 /* Stripify.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6AFC8CF1D9A1F1E00DC5676 /* Stripify.xcdatamodeld */; };
+		B6AFC8D31D9A1F1E00DC5676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6AFC8D21D9A1F1E00DC5676 /* Assets.xcassets */; };
+		B6AFC8D61D9A1F1E00DC5676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AFC8D41D9A1F1E00DC5676 /* LaunchScreen.storyboard */; };
+		B6AFC8E11D9A1F1E00DC5676 /* StripifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AFC8E01D9A1F1E00DC5676 /* StripifyTests.swift */; };
+		B6AFC8EC1D9A1F1E00DC5676 /* StripifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AFC8EB1D9A1F1E00DC5676 /* StripifyUITests.swift */; };
+		B6AFC8FA1D9A1FE600DC5676 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AFC8F91D9A1FE600DC5676 /* SearchViewController.swift */; };
+		B6AFC8FC1D9A22D700DC5676 /* SongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AFC8FB1D9A22D700DC5676 /* SongViewController.swift */; };
+		B6AFC8FE1D9A238200DC5676 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AFC8FD1D9A238200DC5676 /* NetworkManager.swift */; };
+		B6AFC9021D9A248400DC5676 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AFC9011D9A248400DC5676 /* Song.swift */; };
+		BB6FD1BF401B61892CF0413C /* Pods_StripifyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB16717354873241EBBBF0A4 /* Pods_StripifyTests.framework */; };
+		C8C4BFBECEA0B875BB8436B2 /* Pods_StripifyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D84B3187CFAD2BB7075D4C02 /* Pods_StripifyUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6AFC8DD1D9A1F1E00DC5676 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6AFC8BD1D9A1F1E00DC5676 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6AFC8C41D9A1F1E00DC5676;
+			remoteInfo = Stripify;
+		};
+		B6AFC8E81D9A1F1E00DC5676 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6AFC8BD1D9A1F1E00DC5676 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6AFC8C41D9A1F1E00DC5676;
+			remoteInfo = Stripify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BC8917081C4412755939270 /* Pods-StripifyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StripifyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StripifyTests/Pods-StripifyTests.release.xcconfig"; sourceTree = "<group>"; };
+		4A3B98E4D8A823ADC2A362A7 /* Pods-StripifyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StripifyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StripifyUITests/Pods-StripifyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E36C55A47A19A7D9AACD3D5 /* Pods-StripifyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StripifyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StripifyUITests/Pods-StripifyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		73EEB7EB208C6BFC00309E76 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8C8CD7987A90F09CF290DEFB /* Pods_Stripify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stripify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		975A723B207B1B9500713D6E /* MenuLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuLauncher.swift; sourceTree = "<group>"; };
+		975A723D207B25E900713D6E /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		975A723F207B3AB400713D6E /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		975A72412082BBD800713D6E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		975A72432082BC6200713D6E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		975A72452082C1F800713D6E /* CustomAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		9786A9782077BE6C0008F0CE /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9786A97A2077BF560008F0CE /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		97B078D2205F8A4D00EE4F06 /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
+		B3201D432AA0ED2D1332EFC3 /* Pods-Stripify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stripify.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stripify/Pods-Stripify.release.xcconfig"; sourceTree = "<group>"; };
+		B6AFC8C51D9A1F1E00DC5676 /* Stripify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stripify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6AFC8C81D9A1F1E00DC5676 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6AFC8CD1D9A1F1E00DC5676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6AFC8D01D9A1F1E00DC5676 /* Stripify.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stripify.xcdatamodel; sourceTree = "<group>"; };
+		B6AFC8D21D9A1F1E00DC5676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6AFC8D51D9A1F1E00DC5676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6AFC8D71D9A1F1E00DC5676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6AFC8DC1D9A1F1E00DC5676 /* StripifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StripifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6AFC8E01D9A1F1E00DC5676 /* StripifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripifyTests.swift; sourceTree = "<group>"; };
+		B6AFC8E21D9A1F1E00DC5676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6AFC8E71D9A1F1E00DC5676 /* StripifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StripifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6AFC8EB1D9A1F1E00DC5676 /* StripifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripifyUITests.swift; sourceTree = "<group>"; };
+		B6AFC8ED1D9A1F1E00DC5676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6AFC8F91D9A1FE600DC5676 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B6AFC8FB1D9A22D700DC5676 /* SongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongViewController.swift; sourceTree = "<group>"; };
+		B6AFC8FD1D9A238200DC5676 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B6AFC9011D9A248400DC5676 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		D84B3187CFAD2BB7075D4C02 /* Pods_StripifyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StripifyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB16717354873241EBBBF0A4 /* Pods_StripifyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StripifyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8344E14F116B6A8FC8F5BDF /* Pods-StripifyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StripifyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StripifyTests/Pods-StripifyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8A0931A46193FDDD1947FED /* Pods-Stripify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stripify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stripify/Pods-Stripify.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6AFC8C21D9A1F1E00DC5676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				975A72422082BBD800713D6E /* CoreLocation.framework in Frameworks */,
+				3CEE7FA6D1E6336E8256F6E1 /* Pods_Stripify.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6AFC8D91D9A1F1E00DC5676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6FD1BF401B61892CF0413C /* Pods_StripifyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6AFC8E41D9A1F1E00DC5676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C4BFBECEA0B875BB8436B2 /* Pods_StripifyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FBE394C2D1A6E1AEA4461B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8A0931A46193FDDD1947FED /* Pods-Stripify.debug.xcconfig */,
+				B3201D432AA0ED2D1332EFC3 /* Pods-Stripify.release.xcconfig */,
+				F8344E14F116B6A8FC8F5BDF /* Pods-StripifyTests.debug.xcconfig */,
+				2BC8917081C4412755939270 /* Pods-StripifyTests.release.xcconfig */,
+				4A3B98E4D8A823ADC2A362A7 /* Pods-StripifyUITests.debug.xcconfig */,
+				4E36C55A47A19A7D9AACD3D5 /* Pods-StripifyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C4C305994B68B5649B80949 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				975A72412082BBD800713D6E /* CoreLocation.framework */,
+				8C8CD7987A90F09CF290DEFB /* Pods_Stripify.framework */,
+				DB16717354873241EBBBF0A4 /* Pods_StripifyTests.framework */,
+				D84B3187CFAD2BB7075D4C02 /* Pods_StripifyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6AFC8BC1D9A1F1E00DC5676 = {
+			isa = PBXGroup;
+			children = (
+				B6AFC8C71D9A1F1E00DC5676 /* Stripify */,
+				B6AFC8DF1D9A1F1E00DC5676 /* StripifyTests */,
+				B6AFC8EA1D9A1F1E00DC5676 /* StripifyUITests */,
+				B6AFC8C61D9A1F1E00DC5676 /* Products */,
+				3FBE394C2D1A6E1AEA4461B8 /* Pods */,
+				7C4C305994B68B5649B80949 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B6AFC8C61D9A1F1E00DC5676 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6AFC8C51D9A1F1E00DC5676 /* Stripify.app */,
+				B6AFC8DC1D9A1F1E00DC5676 /* StripifyTests.xctest */,
+				B6AFC8E71D9A1F1E00DC5676 /* StripifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6AFC8C71D9A1F1E00DC5676 /* Stripify */ = {
+			isa = PBXGroup;
+			children = (
+				B6AFC8C81D9A1F1E00DC5676 /* AppDelegate.swift */,
+				9786A9782077BE6C0008F0CE /* Podfile */,
+				73EEB7EB208C6BFC00309E76 /* GoogleService-Info.plist */,
+				B6AFC8CC1D9A1F1E00DC5676 /* Main.storyboard */,
+				B6AFC8FF1D9A239500DC5676 /* View Controllers */,
+				B6AFC9001D9A23A800DC5676 /* Model */,
+				B6AFC9031D9A3E0E00DC5676 /* Classes */,
+				B6AFC8D21D9A1F1E00DC5676 /* Assets.xcassets */,
+				B6AFC8D41D9A1F1E00DC5676 /* LaunchScreen.storyboard */,
+				B6AFC8D71D9A1F1E00DC5676 /* Info.plist */,
+				B6AFC8CF1D9A1F1E00DC5676 /* Stripify.xcdatamodeld */,
+			);
+			path = Stripify;
+			sourceTree = "<group>";
+		};
+		B6AFC8DF1D9A1F1E00DC5676 /* StripifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6AFC8E01D9A1F1E00DC5676 /* StripifyTests.swift */,
+				B6AFC8E21D9A1F1E00DC5676 /* Info.plist */,
+			);
+			path = StripifyTests;
+			sourceTree = "<group>";
+		};
+		B6AFC8EA1D9A1F1E00DC5676 /* StripifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6AFC8EB1D9A1F1E00DC5676 /* StripifyUITests.swift */,
+				B6AFC8ED1D9A1F1E00DC5676 /* Info.plist */,
+			);
+			path = StripifyUITests;
+			sourceTree = "<group>";
+		};
+		B6AFC8FF1D9A239500DC5676 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6AFC8F91D9A1FE600DC5676 /* SearchViewController.swift */,
+				975A72432082BC6200713D6E /* MapViewController.swift */,
+				97B078D2205F8A4D00EE4F06 /* SongTableViewCell.swift */,
+				B6AFC8FB1D9A22D700DC5676 /* SongViewController.swift */,
+				975A723B207B1B9500713D6E /* MenuLauncher.swift */,
+				975A723F207B3AB400713D6E /* LibraryViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B6AFC9001D9A23A800DC5676 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6AFC8FD1D9A238200DC5676 /* NetworkManager.swift */,
+				9786A97A2077BF560008F0CE /* FirebaseManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B6AFC9031D9A3E0E00DC5676 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				975A72452082C1F800713D6E /* CustomAnnotation.swift */,
+				B6AFC9011D9A248400DC5676 /* Song.swift */,
+				975A723D207B25E900713D6E /* MenuCell.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6AFC8C41D9A1F1E00DC5676 /* Stripify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6AFC8F01D9A1F1E00DC5676 /* Build configuration list for PBXNativeTarget "Stripify" */;
+			buildPhases = (
+				15B44F21E89D069AC570A332 /* [CP] Check Pods Manifest.lock */,
+				B6AFC8C11D9A1F1E00DC5676 /* Sources */,
+				B6AFC8C21D9A1F1E00DC5676 /* Frameworks */,
+				B6AFC8C31D9A1F1E00DC5676 /* Resources */,
+				F9B03A2704A1682A4D34C32C /* [CP] Embed Pods Frameworks */,
+				59A90045DBAA1D9BC1571092 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stripify;
+			productName = Stripify;
+			productReference = B6AFC8C51D9A1F1E00DC5676 /* Stripify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6AFC8DB1D9A1F1E00DC5676 /* StripifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6AFC8F31D9A1F1E00DC5676 /* Build configuration list for PBXNativeTarget "StripifyTests" */;
+			buildPhases = (
+				1D2F7399420F371B0ACF9328 /* [CP] Check Pods Manifest.lock */,
+				B6AFC8D81D9A1F1E00DC5676 /* Sources */,
+				B6AFC8D91D9A1F1E00DC5676 /* Frameworks */,
+				B6AFC8DA1D9A1F1E00DC5676 /* Resources */,
+				BCEDF19F41808932D9216B7E /* [CP] Embed Pods Frameworks */,
+				430588DEFFAE18AD97E73F78 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6AFC8DE1D9A1F1E00DC5676 /* PBXTargetDependency */,
+			);
+			name = StripifyTests;
+			productName = StripifyTests;
+			productReference = B6AFC8DC1D9A1F1E00DC5676 /* StripifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6AFC8E61D9A1F1E00DC5676 /* StripifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6AFC8F61D9A1F1E00DC5676 /* Build configuration list for PBXNativeTarget "StripifyUITests" */;
+			buildPhases = (
+				6D37203D4E0C959CBED7C370 /* [CP] Check Pods Manifest.lock */,
+				B6AFC8E31D9A1F1E00DC5676 /* Sources */,
+				B6AFC8E41D9A1F1E00DC5676 /* Frameworks */,
+				B6AFC8E51D9A1F1E00DC5676 /* Resources */,
+				2EC686A956705303FC638433 /* [CP] Embed Pods Frameworks */,
+				825AF90A179E6CBCA49B65B0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6AFC8E91D9A1F1E00DC5676 /* PBXTargetDependency */,
+			);
+			name = StripifyUITests;
+			productName = StripifyUITests;
+			productReference = B6AFC8E71D9A1F1E00DC5676 /* StripifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6AFC8BD1D9A1F1E00DC5676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "CIS 195 University of Pennsylvania";
+				TargetAttributes = {
+					B6AFC8C41D9A1F1E00DC5676 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2XRSY3D2PF;
+						LastSwiftMigration = 0920;
+					};
+					B6AFC8DB1D9A1F1E00DC5676 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0920;
+						TestTargetID = B6AFC8C41D9A1F1E00DC5676;
+					};
+					B6AFC8E61D9A1F1E00DC5676 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0920;
+						TestTargetID = B6AFC8C41D9A1F1E00DC5676;
+					};
+				};
+			};
+			buildConfigurationList = B6AFC8C01D9A1F1E00DC5676 /* Build configuration list for PBXProject "Stripify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6AFC8BC1D9A1F1E00DC5676;
+			productRefGroup = B6AFC8C61D9A1F1E00DC5676 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6AFC8C41D9A1F1E00DC5676 /* Stripify */,
+				B6AFC8DB1D9A1F1E00DC5676 /* StripifyTests */,
+				B6AFC8E61D9A1F1E00DC5676 /* StripifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6AFC8C31D9A1F1E00DC5676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AFC8D61D9A1F1E00DC5676 /* LaunchScreen.storyboard in Resources */,
+				B6AFC8D31D9A1F1E00DC5676 /* Assets.xcassets in Resources */,
+				9786A9792077BE6C0008F0CE /* Podfile in Resources */,
+				B6AFC8CE1D9A1F1E00DC5676 /* Main.storyboard in Resources */,
+				73EEB7EC208C6BFC00309E76 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6AFC8DA1D9A1F1E00DC5676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6AFC8E51D9A1F1E00DC5676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15B44F21E89D069AC570A332 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stripify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D2F7399420F371B0ACF9328 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StripifyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EC686A956705303FC638433 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StripifyUITests/Pods-StripifyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		430588DEFFAE18AD97E73F78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StripifyTests/Pods-StripifyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59A90045DBAA1D9BC1571092 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stripify/Pods-Stripify-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D37203D4E0C959CBED7C370 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StripifyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		825AF90A179E6CBCA49B65B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StripifyUITests/Pods-StripifyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCEDF19F41808932D9216B7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StripifyTests/Pods-StripifyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9B03A2704A1682A4D34C32C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Stripify/Pods-Stripify-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stripify/Pods-Stripify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6AFC8C11D9A1F1E00DC5676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AFC9021D9A248400DC5676 /* Song.swift in Sources */,
+				975A7240207B3AB400713D6E /* LibraryViewController.swift in Sources */,
+				B6AFC8FE1D9A238200DC5676 /* NetworkManager.swift in Sources */,
+				975A72462082C1F800713D6E /* CustomAnnotation.swift in Sources */,
+				B6AFC8C91D9A1F1E00DC5676 /* AppDelegate.swift in Sources */,
+				97B078D3205F8A4D00EE4F06 /* SongTableViewCell.swift in Sources */,
+				975A723C207B1B9500713D6E /* MenuLauncher.swift in Sources */,
+				9786A97B2077BF560008F0CE /* FirebaseManager.swift in Sources */,
+				975A72442082BC6200713D6E /* MapViewController.swift in Sources */,
+				975A723E207B25E900713D6E /* MenuCell.swift in Sources */,
+				B6AFC8FC1D9A22D700DC5676 /* SongViewController.swift in Sources */,
+				B6AFC8FA1D9A1FE600DC5676 /* SearchViewController.swift in Sources */,
+				B6AFC8D11D9A1F1E00DC5676 /* Stripify.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6AFC8D81D9A1F1E00DC5676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AFC8E11D9A1F1E00DC5676 /* StripifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6AFC8E31D9A1F1E00DC5676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AFC8EC1D9A1F1E00DC5676 /* StripifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6AFC8DE1D9A1F1E00DC5676 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6AFC8C41D9A1F1E00DC5676 /* Stripify */;
+			targetProxy = B6AFC8DD1D9A1F1E00DC5676 /* PBXContainerItemProxy */;
+		};
+		B6AFC8E91D9A1F1E00DC5676 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6AFC8C41D9A1F1E00DC5676 /* Stripify */;
+			targetProxy = B6AFC8E81D9A1F1E00DC5676 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6AFC8CC1D9A1F1E00DC5676 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6AFC8CD1D9A1F1E00DC5676 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6AFC8D41D9A1F1E00DC5676 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6AFC8D51D9A1F1E00DC5676 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6AFC8EE1D9A1F1E00DC5676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6AFC8EF1D9A1F1E00DC5676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6AFC8F11D9A1F1E00DC5676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A0931A46193FDDD1947FED /* Pods-Stripify.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2XRSY3D2PF;
+				INFOPLIST_FILE = Stripify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.upenn.seas.cis195.Resound;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		B6AFC8F21D9A1F1E00DC5676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3201D432AA0ED2D1332EFC3 /* Pods-Stripify.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2XRSY3D2PF;
+				INFOPLIST_FILE = Stripify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.upenn.seas.cis195.Resound;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		B6AFC8F41D9A1F1E00DC5676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8344E14F116B6A8FC8F5BDF /* Pods-StripifyTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StripifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.upenn.seas.cis195.StripifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stripify.app/Stripify";
+			};
+			name = Debug;
+		};
+		B6AFC8F51D9A1F1E00DC5676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BC8917081C4412755939270 /* Pods-StripifyTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StripifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.upenn.seas.cis195.StripifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stripify.app/Stripify";
+			};
+			name = Release;
+		};
+		B6AFC8F71D9A1F1E00DC5676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3B98E4D8A823ADC2A362A7 /* Pods-StripifyUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = StripifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.upenn.seas.cis195.StripifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Stripify;
+			};
+			name = Debug;
+		};
+		B6AFC8F81D9A1F1E00DC5676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E36C55A47A19A7D9AACD3D5 /* Pods-StripifyUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = StripifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.upenn.seas.cis195.StripifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Stripify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6AFC8C01D9A1F1E00DC5676 /* Build configuration list for PBXProject "Stripify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AFC8EE1D9A1F1E00DC5676 /* Debug */,
+				B6AFC8EF1D9A1F1E00DC5676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6AFC8F01D9A1F1E00DC5676 /* Build configuration list for PBXNativeTarget "Stripify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AFC8F11D9A1F1E00DC5676 /* Debug */,
+				B6AFC8F21D9A1F1E00DC5676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6AFC8F31D9A1F1E00DC5676 /* Build configuration list for PBXNativeTarget "StripifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AFC8F41D9A1F1E00DC5676 /* Debug */,
+				B6AFC8F51D9A1F1E00DC5676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6AFC8F61D9A1F1E00DC5676 /* Build configuration list for PBXNativeTarget "StripifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AFC8F71D9A1F1E00DC5676 /* Debug */,
+				B6AFC8F81D9A1F1E00DC5676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B6AFC8CF1D9A1F1E00DC5676 /* Stripify.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B6AFC8D01D9A1F1E00DC5676 /* Stripify.xcdatamodel */,
+			);
+			currentVersion = B6AFC8D01D9A1F1E00DC5676 /* Stripify.xcdatamodel */;
+			path = Stripify.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B6AFC8BD1D9A1F1E00DC5676 /* Project object */;
+}

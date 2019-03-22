@@ -1,0 +1,20 @@
+Milestones:
+1. Understand the Song Class and given files
+2. Create new View controller to show Songs being played
+3. Configure networking 
+- getting the songs and URL things
+- JSONDecoder method
+- Displaying queried songs (querySong func)
+4. Configure table view cells and segues
+5. Configure prepareForSegue
+6. Ensure the songs can be played and paused
+7. Ensure song auto pauses and plays when navigating
+8. Improve UI components :- modify Song class for additional attributes
+9. Create custom tableViewCell
+10. AutoLayout for portrait and landscape
+11. Debugging by looking for bugs
+
+AVPlayer Questions:
+1. AVPlayer is part of AVFoundation. AVFoundation is part of the Media layer.
+2. Our media asset is an .m4a file fetched from a url. This file is the song sample from iTunes
+3. AVPlayer can automatically fetch files from a given url because of its init(url: URL) constructor. This is because it supports HTTP Live Streaming of media assets. It also plays one media asset at a time, which works for us since we do not want multiple media assets playing at the same time.

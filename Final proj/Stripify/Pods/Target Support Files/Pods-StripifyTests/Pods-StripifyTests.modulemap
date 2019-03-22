@@ -1,0 +1,6 @@
+framework module Pods_StripifyTests {
+  umbrella header "Pods-StripifyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
